@@ -1,0 +1,11 @@
+Q. Is it okay to redeclare a variable inside a loop?
+A.	yes, as far as you dont plan to reuse that value
+Example:
+
+	while(true) {
+	/*	this is the redeclaration */
+		int value = readInt("Enter a value: ");
+	/*	end of redeclaration */
+		if (value == SENTINEL) break;
+		total += value;
+	}
