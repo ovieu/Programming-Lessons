@@ -28,3 +28,27 @@ Q. When checking conditions, alway check for the false condition
 		}
 		return true;
 	}
+		
+/*	A better way to express if else statements */
+ if (condition) {
+     statement;
+ } else {
+     statement;
+ }
+ 
+ //can be replaced with
+            
+   if (!condition) {
+       return statement;
+   } return false statement;
+            
+           //   Example
+   private String replaceOccurence(String str, String orig, String repl) {
+       int index = str.indexOf(repl);
+       if (index != -1) {
+        str = str.substring(0, index) + repl + str.substring(index, orig.length());
+        return str;
+       }
+       return str;
+   }
+
