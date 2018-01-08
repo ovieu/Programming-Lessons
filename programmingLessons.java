@@ -18,6 +18,7 @@ Q. When checking conditions, alway check for the false condition
    a false return, then the condition you are checking for is true
    Example:
    */
+
    
    //	checks if a string is a palindrome
    private String isPalindrome(String str) {
